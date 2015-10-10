@@ -19,10 +19,8 @@ hpc$Sub_metering_3 = as.numeric(hpc$Sub_metering_3)
 
 
 png("plot2.png", width=480, height=480)
-
 datetime <- hpc$Date + hpc$Time
 globalActivePower <- as.numeric(hpc$Global_active_power)
 plot(datetime, globalActivePower, type="l", xlab="", ylab="Global Active Power (kilowatts)")
-
 dev.off()
 

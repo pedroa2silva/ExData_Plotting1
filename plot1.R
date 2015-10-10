@@ -17,7 +17,6 @@ hpc$Sub_metering_1 = as.numeric(hpc$Sub_metering_1)
 hpc$Sub_metering_2 = as.numeric(hpc$Sub_metering_2)
 hpc$Sub_metering_3 = as.numeric(hpc$Sub_metering_3)
 
-
 png("plot1.png", width=480, height=480)
 hist(hpc$Global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
 dev.off()
